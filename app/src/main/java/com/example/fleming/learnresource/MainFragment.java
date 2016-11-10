@@ -93,7 +93,7 @@ public class MainFragment extends Fragment {
                 InputStream inputStream = getResources().openRawResource(R.raw.ggh);
                 mPlayer = MediaPlayer.create(getActivity(), R.raw.ggh);
                 mPlayer.start();
-                tvResult.setText("正在播放的是薛之谦的《刚刚好》");
+                tvResult.setText(R.string.play_song);
                 break;
             case R.id.bt_image:
                 imageView.setImageDrawable(getResources().getDrawable(R.mipmap.miss));
@@ -112,7 +112,7 @@ public class MainFragment extends Fragment {
                         break;
                     case XmlPullParser.START_TAG:
                         if (nodeName.equals("name")) {
-                            tvResult.setText("通过pull解析器解析出了:" + xmlParser.nextText());
+                            tvResult.setText("通过PULL解析器解析出了:" + xmlParser.nextText());
                         }
                         break;
                 }

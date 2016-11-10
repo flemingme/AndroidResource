@@ -10,6 +10,7 @@
     <string name="text">我是strings.xml里的一个字符串</string>
     <string name="reset">重置</string>
     <string name="xml">获取xml资源</string>
+    <string name="play_song">正在播放的是薛之谦的《刚刚好》</string>
 
     <string-array name="week">
         <item>Sunday</item>
