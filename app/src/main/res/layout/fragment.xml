@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result" />
+
+    <Button
+        android:id="@+id/bt_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/string" />
+
+    <Button
+        android:id="@+id/bt_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/color" />
+
+    <Button
+        android:id="@+id/bt_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/size" />
+
+    <Button
+        android:id="@+id/bt_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/array" />
+
+    <Button
+        android:id="@+id/bt_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml" />
+
+    <Button
+        android:id="@+id/bt_raw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/raw" />
+
+    <Button
+        android:id="@+id/bt_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/image" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher" />
+</LinearLayout>

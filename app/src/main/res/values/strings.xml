@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LearnResource</string>
+    <string name="result">显示结果</string>
+    <string name="string">获取string资源</string>
+    <string name="image">获取image资源</string>
+    <string name="raw">获取raw资源</string>
+    <string name="array">获取array资源</string>
+    <string name="size">获取size资源</string>
+    <string name="color">获取color资源</string>
+    <string name="text">我是strings.xml里的一个字符串</string>
+    <string name="reset">重置</string>
+    <string name="xml">获取xml资源</string>
+
+    <string-array name="week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thurday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>
